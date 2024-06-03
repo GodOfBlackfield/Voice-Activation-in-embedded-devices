@@ -1,1 +1,1 @@
-bqoibv
+The audio files for background sounds are stored here with the names ranging from 0 to (total no of wakeword audio files - 1) in WAV format
