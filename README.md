@@ -6,15 +6,15 @@ voice activation of the smart rollator that we're working on.
 First and foremost, Python must be installed in the system you will be working on, preferably v3.11.9. Then below is the list of
 packages you must install for the making of the machine learning models:-
 
-numpy
-pandas
-scikit-learn
-tensorflow (v2.15.0 only)
-keras (v2.15.0 only)
-sounddevice
-librosa
-matplotlib
-scikeras (**)
+numpy<br>
+pandas<br>
+scikit-learn<br>
+tensorflow (v2.15.0 only)<br>
+keras (v2.15.0 only)<br>
+sounddevice<br>
+librosa<br>
+matplotlib<br>
+scikeras (**)<br>
 
 ** This particular package has version issues with keras, as it works with keras >= v3.2.0 only. Please install this after you've
 made the tensorflow-lite models, as anything greater than keras v.2.15.0 will give errors while converting to tensorflow lite.
@@ -68,10 +68,6 @@ for the MFCC values, and 'y' for the labels. Then we make a Sequential model wit
 
 => rename.py - This files renames the audio files in the two folders to numbers from 0-(total no of audio files - 1)
 
-Also, the links I used to make these files are given below:-
-https://www.youtube.com/watch?v=NITIefkRae0
-https://www.youtube.com/watch?v=gl1lhplZmaI
-
 These are all the files in here and if you feel that these are too easy and basic for you, please make changes to them to suit your needs and make the models more accurate.
 
 P.S., this is the diagram of the Raspberry Pi's GPIO headers and which ones you should be using for which model:-
@@ -100,9 +96,9 @@ P.S., this is the diagram of the Raspberry Pi's GPIO headers and which ones you 
     |                                         |
     -------------------------------------------
 
-Pin 16 - Start
-Pin 17 - Stop
-Pin 22 - Left
-Pin 23 - Right
-Pin 24 - Forward
-Pin 27 - Backward
+Pin 16 - Start<br>
+Pin 17 - Stop<br>
+Pin 22 - Left<br>
+Pin 23 - Right<br>
+Pin 24 - Forward<br>
+Pin 27 - Backward<br>
