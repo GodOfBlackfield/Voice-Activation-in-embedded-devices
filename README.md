@@ -1,5 +1,4 @@
-Welcome to the NLP Project that I have designed while taking this Reading Course under Mrs. Neena Goveas and Mrs. Shubhangi Gawali!
-Author: Sonesh Kumar Swain, 4th year CS, 2nd Semester 2023-24
+Author: Sonesh Kumar Swain
 
 This project's aim is to make accurate machine learning models for embedded devices (raspberry pi in our case) that help with
 voice activation of the smart rollator that we're working on.
