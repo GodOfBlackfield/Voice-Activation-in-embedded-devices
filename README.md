@@ -20,7 +20,7 @@ scikeras (**)<br>
 made the tensorflow-lite models, as anything greater than keras v.2.15.0 will give errors while converting to tensorflow lite.
 
 Then, you have to go and download the google commands dataset for audio processing, the link for which is given below:-
-http://download.tensorflow.org/data/speech_commands_v0.02.tar.gz
+https://download.tensorflow.org/data/speech_commands_v0.02.tar.gz
 
 Once you've finished with the above instructions, you can now view the python files in here along with the models and datasets
 present here.
